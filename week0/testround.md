@@ -65,7 +65,7 @@ Stopping test framework...
 Test report generated: report.txt
 ```
 ## task2: Software/toolchain availability test with `lintestor`
-[lintestor](https://github.com/aisuneko/lintestor) is a novel software availability testing framework written in Rust; it is perhaps one of the first such frameworks out there. Unfortunately, I've encountered several major usability issues during test runs, and spent quite some time this week fixing bugs and enhancing its functionalities.
+[lintestor](https://github.com/255doesnotexist/lintestor) is a novel software availability testing framework written in Rust; it is perhaps one of the first such frameworks out there. Unfortunately, I've encountered several major usability issues during test runs, and spent quite some time this week fixing bugs and enhancing its functionalities.
 
 Notable issues include:
 - each package's report.json is generated directly within their respective test scripts; thus the json format might be inconsistent (which might disrupt the aggregating process) and causes severe redundancy in the test scripts
@@ -77,7 +77,7 @@ Notable issues include:
 - SSH is the only supported connection method at the moment
 - requires QEMU/SSH at all times (there was a `--locally` option but it appears to be broken)
 
-I made the following changes to the project as of now, yet to be merged:
+I made the following changes to the project as of now ([here](https://github.com/aisuneko/lintestor), PR not submitted yet):
 - Fixed the `--locally` flag to allow the program to run directly on the target environment (without going through SSH or QEMU)
 - Added the `--verbose` flag to print all stdout from test scripts
 - Did a major overhaul of the report generation process; this is now done entirely within the framework itself rather than from the individual test scripts
