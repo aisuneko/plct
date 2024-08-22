@@ -129,6 +129,8 @@ Here are the results of a test done with my revised version of `lintestor`, on M
 | scipy        | package | ✅ scipy=1.13.1 (python 3.12.5)     |
 | squid        | package | ✅ squid=6.10                       |
 | zookeeper    | package | ✅ zookeeper=3.9.2                  |
+ 
+ (`runc` failed to run a container with `runc run failed: unable to start container process: error during container init: error reopening /dev/null inside container: open /dev/null: permission denied`; yet to investigate)
 
 ---
 
@@ -205,6 +207,8 @@ CONFIG_NETFILTER_XT_MATCH_IPVS=m
 5.  reboot and select the newly built kernel entry in U-Boot and Voilà! 
 
 Docker containers should be able to run at this point:
+
+![](https://github.com/user-attachments/assets/aa6321a8-28d0-4b9f-bda4-69eb21ddb2bd)
 
 ~~(running `check-config.sh` again shows that `CONFIG_CPUSETS` and `CONFIG_NETFILTER_XT_MATCH_IPVS` are still missing; I'm not sure why)~~
 
