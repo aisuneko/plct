@@ -84,10 +84,53 @@ I made the following changes to the project as of now ([here](https://github.com
 - Edited the test scripts for each implemented package to adapt to the changes above
 - Refactored TestRunner and several other parts of code; plus various bug fixes and stability improvements
 
-Some of my ideas for further enhancement (will discuss later with the author):
-- Add support for serial connections
-- Add support for multiple test scripts for each package
+Some of my ideas for further enhancement:
+- Support for serial connections
+- Support for automated iteration of the packages under each distro's directory and the script(s) under each package
+- Support for a flag to skip packages with a previous successful report (or to manually re-run tests for certain failed packages)
+- Enhance log output
 - Come up with a more stable convention for writing test scripts; Conduct thorough testing to increase robustness
+
+For that I will discuss later with the author. I'm also willing to co-maintain the project if possible.
+
+Here are the results of a test done with my revised version of `lintestor`, on Milk-V Duo S running Debian with kernel 5.10:
+
+---
+| 软件包       | 种类    | debian                             |
+| :----------- | :------ | :--------------------------------- |
+| apache       | package | ✅ apache=2.4.62-1                  |
+| clang        | package | ✅ clang=16.0.6 (27+b1)             |
+| cmake        | package | ✅ cmake=3.30.2                     |
+| docker       |         | ❓                                  |
+| erlang       | package | ✅ erlang=1:25.3.2.12+dfsg-1        |
+| gcc          | package | ✅ gcc=14.2.0                       |
+| gdb          | package | ✅ gdb=GNU gdb (Debian 15.1-1) 15.1 |
+| golang       | package | ✅ golang=2:1.22~3                  |
+| haproxy      | package | ✅ haproxy=2.9.9-1                  |
+| libmemcached | package | ✅ libmemcached=1.1.4-1.1+b1        |
+| lighttpd     | package | ✅ lighttpd=1.4.76-1                |
+| llvm         | package | ✅ llvm=1:16.0.6-27+b1              |
+| mariadb      | package | ✅ mariadb=1:11.4.3-1               |
+| nginx        | package | ✅ nginx=1.26.0-1                   |
+| nodejs       | package | ✅ nodejs=20.16.0+dfsg-1            |
+| numpy        | package | ✅ numpy=Python 3.12.5 (1.26.4)     |
+| ocaml        | package | ✅ ocaml=5.0.1-3+b3                 |
+| openjdk      | package | ✅ openjdk=24-ea                    |
+| perl         | package | ✅ perl=5.38.2                      |
+| python       | package | ✅ python=3.12.5                    |
+| ruby         | package | ✅ ruby=3.1.2p20                    |
+| rust         | package | ✅ rust=1.80.1 (1.80.1)             |
+| sqlite       | package | ✅ sqlite=3.46.1                    |
+| varnish      | package | ✅ varnish=7.5.0                    |
+| openssl      | package | ✅ openssl=3.3.1                    |
+| postgresql   | package | ✅ postgresql=16.4                  |
+| redis        | package | ✅ redis=7.0.15                     |
+| runc         | package | ⚠                                  |
+| scipy        | package | ✅ scipy=1.13.1 (python 3.12.5)     |
+| squid        | package | ✅ squid=6.10                       |
+| zookeeper    | package | ✅ zookeeper=3.9.2                  |
+
+---
 
 ## task3: Run a Docker/moby container on the board, eg. hello-world
 
