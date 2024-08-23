@@ -77,7 +77,7 @@ Notable issues include:
 - SSH is the only supported connection method at the moment
 - requires QEMU/SSH at all times (there was a `--locally` option but it appears to be broken)
 
-I made the following changes to the project as of now ([here](https://github.com/aisuneko/lintestor), PR not submitted yet):
+I made the following changes to the project as of now ([merged PR](https://github.com/255doesnotexist/lintestor/pull/1)):
 - Fixed the `--locally` flag to allow the program to run directly on the target environment (without going through SSH or QEMU)
 - Added the `--verbose` flag to print all stdout from test scripts
 - Did a major overhaul of the report generation process; this is now done entirely within the framework itself rather than from the individual test scripts
