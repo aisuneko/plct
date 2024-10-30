@@ -10,4 +10,4 @@ I contributed the following to the `lintestor` project:
   - [fix: add parameter in distro configs](https://github.com/255doesnotexist/lintestor/commit/b7d5f4815296bac8b745e41af8e3f4ef84e646d8)
   - [docs(usage): document distro and package flags](https://github.com/255doesnotexist/lintestor/commit/44f005cf33763cd920ee7f31ad86d04213ad0614)
   - [bump dependencies](https://github.com/255doesnotexist/lintestor/commit/daca50ce9dd8ea68576f58b5a14907f5d887d1fd)
-- Reviewed PR from PangLARS: [#30](https://github.com/255doesnotexist/lintestor/pull/37)
+- Reviewed PR from PangLARS: [#30](https://github.com/255doesnotexist/lintestor/pull/30)
