@@ -1,8 +1,9 @@
-# month2/week1
+# month2/week2
 ## support-matrix
 merged PR: [duo/duo256m: Update Alpine/FreeRTOS/openEuler/Fedora/Ubuntu](https://github.com/ruyisdk/support-matrix/pull/99) (+4 commits)
 - Update Alpine Linux test report for Milk-V Duo (again, since a community image is available)
-- Add Ubuntu test report for Milk-V Duo & Duo 256M  
+- Add Ubuntu test report for Milk-V Duo
+- Add Ubuntu test report for Milk-V Duo 256M  
 
 ## Reports
 - Helped revise & proofread the Firefox LaTeX test report drafted by wychlw for more detail, better formality and typo corrections: [PR](https://github.com/QA-Team-lo/firefox_test/pull/3), [commit](https://github.com/QA-Team-lo/firefox_test/commit/91d5631de10e66898939f0513e31187e7cca7e30)
