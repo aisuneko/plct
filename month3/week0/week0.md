@@ -1,4 +1,4 @@
-# month2/week0
+# month3/week0
 ## lintestor project
 - chores: bump version
 - [chore: make clippy happy](https://github.com/255doesnotexist/lintestor/commit/c6a4c812e74ae9b6825daf2733742b05896258b1)
