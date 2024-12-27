@@ -40,3 +40,7 @@
 因 nixpkgs 工具链版本过低而编译失败，可能需要等待 nixpkgs 推送 GCC 14
 
 Issue: [[Page Content] NixOS for Duo/Duo256M failed to build](https://github.com/ruyisdk/support-matrix/issues/124)
+
+## 测试报告任务
+- 校对，优化排版，润色和书面化 openGauss 测试报告：[commit](https://github.com/QA-Team-lo/dbtest/commit/89410b6eb39c46c1c67e64c55d001bdb6db43fc3)
+- 校对，优化排版，润色和书面化 OceanBase 测试报告：[commit](https://github.com/QA-Team-lo/dbtest/commit/fd2070e292fc6c78316abe4eb36787b9cba308fcf)
