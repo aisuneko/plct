@@ -6,15 +6,20 @@
 ### PRs 
 - [duo/duo256m: update Buildroot to V2](https://github.com/ruyisdk/support-matrix/pull/134)
 - [visionfive2: Add Fedora](https://github.com/ruyisdk/support-matrix/pull/142)
+- [duo/duo256m: Add NixOS](https://github.com/ruyisdk/support-matrix/pull/157)
 
 ### 内容详细
 
 **新增**测试报告：
 - Fedora (V Force) @ VisionFive 2
+- NixOS @ Milk-V Duo
+- NixOS @ Milk-V Duo 256M
 
 **更新**测试报告：
 - BuildRoot (V2) @ Milk-V Duo 
 - BuildRoot (V2) @ Milk-V Duo 256M
+
+其中 NixOS 测试系通过修改原 repo 中的 nix 配置文件实现，PR 见 https://github.com/NickCao/nixos-riscv/pull/24
 
 ## 测试报告任务
 
