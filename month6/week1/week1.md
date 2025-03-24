@@ -33,3 +33,7 @@ Not committed yet:
 \+ Melis @ Yuzuki-Lizard (WIP)
 
 \+ Zephyr @ CH32V003EVT
+
+## ruyisdk-gnu-tests
+
+Completed tests for K230: https://github.com/QA-Team-lo/ruyisdk-gnu-tests/commit/0aa8a407c7a7661886a4abeaa6f6de87daf2dfab
