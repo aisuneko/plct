@@ -16,7 +16,7 @@
 
 # lintestor
 
-- Reviewed @255doesnotexist's [ongoing PR]() for the 0.2+ overhaul, and left 25+ comments (as part of collaboration)
+- Reviewed @255doesnotexist's [ongoing PR](https://github.com/255doesnotexist/lintestor/pull/96) for the 0.2+ overhaul, and left 25+ comments (as part of collaboration)
 - [refactor: remove obsolete code and re-enable integration test](https://github.com/255doesnotexist/lintestor/pull/96/commits/72b11e546cae412adda52c9ad445ffbc1b9d31b2)
 - [refactor: remove obsolete code and unused imports](https://github.com/255doesnotexist/lintestor/pull/96/commits/ad89ca0d090736899ab51ca86442a86078bc95e0)
 - [refactor: remove unused summary and aggregation](https://github.com/255doesnotexist/lintestor/pull/96/commits/14fa0f8277c1fe179f2a3084a954aa429bfb3f25)
