@@ -17,3 +17,7 @@
 ## 深圳 Elexcon 展会
 
 8/27 在甲辰计划展位和 @ziyao233 一同看摊一天，为观众提供了甲辰计划和 RuyiSDK 相关信息的介绍。
+
+## 其他
+
+作为外围 contributor 为 eweOS 贡献了一个软件包 `radeontop`，带 riscv64 版本：https://os.ewe.moe/pkginfo/main/radeontop/riscv64
