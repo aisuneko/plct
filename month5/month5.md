@@ -3,7 +3,7 @@
 
 ## RuyiSDK 支持矩阵相关
 
-### PRs 
+### PRs
 - [Add/Update mangopi_mq_pro (1)](https://github.com/ruyisdk/support-matrix/pull/134)
 - [Add TTGO T-Display-GD32 board & Add μC/OS-II](https://github.com/ruyisdk/support-matrix/pull/169)
 - [Ports documentation from oscompare](https://github.com/ruyisdk/support-matrix/pull/163)
@@ -47,7 +47,7 @@
 - Deepin @ BPI-F3
 - Deepin @ Pioneer
 - Deepin @ Unmatched
-- openKylin @ BPI-F3 
+- openKylin @ BPI-F3
 
 ## 其他
 
